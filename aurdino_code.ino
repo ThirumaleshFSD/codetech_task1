@@ -3,6 +3,7 @@ int ledPin = 13;  // GPIO13 (D7 on NodeMCU ESP8266)
 void setup() {
   pinMode(ledPin, OUTPUT);
 }
+//here we will do that coding at all or the arudino 
 
 void loop() {
   digitalWrite(ledPin, HIGH);  // Turn ON LED
